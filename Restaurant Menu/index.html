@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coffee House Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Coffee House Menu</h1> <img src="logo.png" alt="Coffee House Logo" width="100">
+        <nav>
+            <a href="#Espresso">Espresso</a>
+            <a href="#Iced">Iced</a>
+            <a href="#Sandwiches">Sandwiches</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Espresso">
+            <h2>Expresso</h2>
+            <article>
+                <b>Single Shot</b> <i>2.50</i>
+                <p>A single shot of rich, aromatic espresso.</p>
+            </article>
+            <article>
+                <b>Double Shot</b> <i>3.50</i>
+                <p>A double shot of rich, aromatic espresso.</p>
+            </article>
+            <article>
+                <b>Cappuccino</b> <i>4.00</i>
+                <p>Espresso with steamed milk and a layer of foam.</p>
+            </article>
+        </section>
+
+        <section id="Iced">
+            <h2>Iced</h2>
+            <article>
+                <b>Iced Coffee</b> <i>3.00</i>
+                <p>Chilled brewed coffee served over ice.</p>
+            </article>
+            <article>
+                <b>Iced Latte</b> <i>4.50</i>
+                <p>Espresso with cold milk served over ice.</p>
+            </article>
+            <article>
+                <b>Iced Mocha</b> <i>5.00</i>
+                <p>Espresso with chocolate syrup and cold milk served over ice.</p>
+            </article>
+        </section>
+
+        <section id="Sandwiches">
+            <h2>Sandwiches</h2>
+            <article>
+                <b>Turkey Club</b> <i>7.99</i>
+                <p>Sliced turkey, bacon, lettuce, tomato, and mayo on toasted bread.</p>
+            </article>
+            <article>
+                <b>Veggie Delight</b> <i>6.99</i>
+                <p>A mix of fresh vegetables with hummus on whole grain bread.</p>
+            </article>
+            <article>
+                <b>Ham & Cheese</b> <i>7.49</i>
+                <p>Sliced ham and cheddar cheese with mustard on a baguette.</p>
+            </article>
+        </section>
+
+        <section id="Order Now">
+            <form>
+                <h2>Place Your Order</h2>
+                        <h3>Espresso</h3>
+                        <label>Single Shot </label> <input type="number" min="0" max="5">
+                        <label>Double Shot </label> <input type="number" min="0" max="5">
+                        <label>Cappuccino </label> <input type="number" min="0" max="5">
+
+                    <h3>Iced</h3>
+                        <label>Iced Coffee </label>   <input type="number" min="0" max="5">
+                        <label>Iced Latte </label>      <input type="number" min="0" max="5">
+                        <label>Iced Mocha </label>      <input type="number" min="0" max="5">
+                    <h3>Sandwiches</h3>
+                        <label>Turkey Club </label>     <input type="number" min="0" max="5"> 
+                        <label>Veggie Delight </label>  <input type="number" min="0" max="5">
+                        <label>Ham & Cheese </label>    <input type="number" min="0" max="5">  
+                        <br><br>
+                        <textarea rows="4" cols="50" placeholder="Any special instructions?"></textarea>
+                        <br><br>
+                        <button type="submit">Place your Order</button>
+            </form>            
+       </section>
+            
+    </main>
+    <footer><p> made wth love - Khushi</p></footer>
+</body>
+</html>
